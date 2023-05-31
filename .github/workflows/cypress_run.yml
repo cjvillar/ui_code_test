@@ -15,12 +15,11 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     #- run: git pull
-    - name: Use Node.js latest
-      uses: actions/setup-node@v3
+    - name: Cypress run
+      uses: cypress-io/github-action@v5
       with:
-        node-version: latest
-        cache: 'npm'
-    - run: npm run cy:spec
+          build: npm run build
+          start: npm run cy:spec
     - uses: stefanzweifel/git-auto-commit-action@v4
       with:
         commit_message: "Running Cypress Test"
