@@ -1,4 +1,7 @@
-# Test for UI
+# Cypress Test for UI
+
+This repo is a playground that I will use with Cypress.
+
 
 To run cypress:
 ```npx cypress open```
