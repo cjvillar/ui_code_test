@@ -1,0 +1,16 @@
+;FFMETADATA1
+[CHAPTER]
+TIMEBASE=1/1000
+START=7676
+END=10891
+title=UI Test for SHA Page Visits a URL and inputs hash for Password
+[CHAPTER]
+TIMEBASE=1/1000
+START=13001
+END=14123
+title=UI Test for SHA Page Visits a URL fails to input hash and checks for password
+[CHAPTER]
+TIMEBASE=1/1000
+START=14036
+END=15255
+title=UI Test for SHA Page Visits a URL and inputs wrong hash for Password
